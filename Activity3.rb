@@ -5,7 +5,7 @@ def extract_urls(text)
   end
   
   sample_text = "Visit our site at http://www.example.org for more information. Check out our search page at https://example.com/search?q=ruby+regex. Don’t forget to ftp our resources at ftp://example.com/resources."
-  
+  puts('Problem 1')
   extract_urls(sample_text)
 
 
@@ -22,5 +22,6 @@ def extract_urls(text)
   2023-03-02 - INV002 - Beta LLC - $2050
   2023-03-03 - INV003 - Gamma Inc - $3500
   INVOICES
-  
+  puts('')
+  puts('problem 2')
   parse_invoices(invoice_entries)
